@@ -1,5 +1,6 @@
 name: Caring Dev
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
+highlighter: pygments
+permalink: /blog/:year/:month/:title/
 gems:
   - jekyll-sitemap
