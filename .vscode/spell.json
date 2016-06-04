@@ -1,0 +1,7 @@
+{
+    "language":"en",
+    "ignoreWordsList":["nillable","nullable"],
+    "mistakeTypeToStatus":{"Spelling":"Error","Passive Voice":"Warning","Complex Expression":"Warning","Hyphen Required":"Error"},
+    "languageIDs":["markdown","text"],
+    "ignoreRegExp":["/(^\\\\{% highlight (?:\\\\S*?\\\\s)+?%\\\\}$(?:.|\\\\s)*?^\\\\{% endhighlight %\\\\}$)/gm","/\\\\[.*?\\\\]\\\\((\\\\S+?(?: \".*?\")?)\\\\)/g"]
+}

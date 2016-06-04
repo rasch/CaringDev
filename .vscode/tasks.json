@@ -1,0 +1,9 @@
+{
+    "version": "0.1.0",
+    "command": "jekyll",
+    "isShellCommand": true,
+    "args": ["s", "-L"],
+    "showOutput": "always",
+    "isWatching": true,
+    "isBuildCommand": true
+}

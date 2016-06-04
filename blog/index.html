@@ -5,6 +5,11 @@ title: Blog
 <h1>{{ page.title }}</h1>
 <ul class="list-unstyled">
     {% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+        <li>
+            <span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+            {% if post.subtitle %}
+            <span class="text-muted">&ndash; {{ post.subtitle }}</span>
+            {% endif %}
+        </li>
     {% endfor %}
 </ul>
