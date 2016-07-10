@@ -2,8 +2,18 @@
     "version": "0.1.0",
     "command": "jekyll",
     "isShellCommand": true,
-    "args": ["s", "-L"],
     "showOutput": "always",
     "isWatching": true,
-    "isBuildCommand": true
+    "echoCommand": true,
+    "tasks": [
+        {
+            "taskName": "run",
+            "suppressTaskName": true,
+            "args": ["s", "-L"],
+            "isTestCommand": true
+        },{
+            "taskName": "build",
+            "isBuildCommand": true
+        }
+    ]
 }
