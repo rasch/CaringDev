@@ -16,6 +16,7 @@ GEM
       mercenary (~> 0.3.3)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-feed (0.6.0)
     jekyll-livereload (0.1.1.1)
       em-websocket (~> 0.5)
       jekyll (~> 3.0)
@@ -47,6 +48,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  jekyll-feed
   jekyll-livereload
   jekyll-sitemap
   pygments.rb

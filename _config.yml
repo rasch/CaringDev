@@ -1,6 +1,13 @@
 name: Caring Dev
+author:
+  display_name: Raphael Schweizer
+  email: code@caringdev.ch
+  twitter: _Caring_Dev_
 markdown: kramdown
 highlighter: pygments
 permalink: /blog/:year/:month/:title/
 gems:
   - jekyll-sitemap
+  - jekyll-feed
+
+exclude: [ Gemfile, Gemfile.lock ]
