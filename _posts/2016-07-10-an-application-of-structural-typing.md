@@ -4,7 +4,8 @@ title: "An application of structural typing"
 subtitle: "Transforming XML data using the F# XML type provider"
 date: 2016-07-10
 ---
-At some point you'll find yourself doing [ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load "Extract, Transform, Load").
+*[ETL]: Extract, Transform, Load
+At some point you'll find yourself doing ETL.
 Whether it's loading a few GB of data into SQL Server or consuming tiny MQ messages, one step is to parse (and potentially validate) data. 
 Usually, this is rather boring and tedious work. Unless...
 
@@ -34,7 +35,7 @@ Consider the following, vastly simplified messages:
 </div>
 </div>
 
-### Extract ###
+### Extract
 A very convenient way of working with (unknown to the programmer) data in F# are so-called type providers.
 
 > An F# type provider is a component that provides types, properties, and methods for use in your program.
@@ -80,7 +81,7 @@ let message = XmlMessage.Load("message.xml")
 <i class="fi-checkbox"></i> **E**xtraction, fast and easy
 </div>
 
-### Transform ###
+### Transform
 
 The type provider generates types equivalent to the following ones:
 {% highlight fsharp %}
@@ -244,7 +245,7 @@ let map (xmlMessage : XmlMessage.Message) =
 <i class="fi-checkbox"></i> **T**ransform, less fast but fun
 </div>
 
-### Conclusion ###
+### Conclusion
 
 **Wait**, already? What about the **L**oad in ETL? Well, having the transformed `DbMessage` this is [almost boring](https://fsprojects.github.io/SQLProvider/core/crud.html).
 
