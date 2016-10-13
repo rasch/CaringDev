@@ -1,0 +1,3 @@
+/src/.paket/paket.exe
+/src/packages/
+*.suo
