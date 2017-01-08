@@ -1,4 +1,5 @@
 GEM
+  remote: https://rubygems.org/
   specs:
     colorator (0.1)
     em-websocket (0.5.1)
@@ -55,4 +56,4 @@ DEPENDENCIES
   wdm (>= 0.1.0)
 
 BUNDLED WITH
-   1.12.4
+   1.13.7
