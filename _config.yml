@@ -10,4 +10,4 @@ gems:
   - jekyll-sitemap
   - jekyll-feed
 
-exclude: [ Gemfile, Gemfile.lock ]
+exclude: [ Gemfile, Gemfile.lock, packages, _code ]
