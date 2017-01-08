@@ -1,2 +1,5 @@
 .jekyll-metadata
+packages/
+/.paket/paket.bootstrapper.exe
+/.paket/paket.targets
 _site/
