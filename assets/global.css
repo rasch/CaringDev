@@ -25,3 +25,8 @@ blockquote {
     padding-top: 15px;
     background-color: #f5f5f5;
 }
+
+table.pre, pre.fssnip, pre {
+    margin:10px 0px 20px 0px;
+    width:100%;
+}

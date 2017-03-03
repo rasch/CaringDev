@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<messages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <message>
+    <Available>Foo</Available>
+    <Nil xsi:nil="true"/>
+    <Missing>Bar</Missing>
+    <Missing_Nil>1337</Missing_Nil>
+  </message>
+  <message>
+    <Available>Baz</Available>
+    <Nil>3.141</Nil>
+  </message>
+  <message>
+    <Available></Available>
+    <Nil>2.718</Nil>
+    <Missing_Nil xsi:nil="true"/>
+  </message>
+</messages>

@@ -1,5 +1,6 @@
 source https://www.nuget.org/api/v2
 framework: net462
 
+nuget FAKE ~> 4
 nuget FSharp.Data ~> 2
-nuget FSharp.Formatting.CommandTool ~> 2
+nuget FSharp.Formatting ~> 2

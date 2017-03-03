@@ -9,7 +9,7 @@ Functional language admirer, Meetup-participant, broken English freshman blogger
 
 Professionally writing C#, F#, JavaScript, TypeScript (past: Scala, C++, Java, Delphi) using AngularJS, WebAPI, xUnit, xBehave, … \\
 Knows some (T-)SQL, HTML, CSS, XML, JSON, … \\
-Played with Oberon, Eiffel, (Turbo)Pascal, (V)Basic, OCaml, Coq, Haskell.
+Played with React, Oberon, Eiffel, (Turbo)Pascal, (V)Basic, OCaml, Coq, Haskell.
 
 ## Appearances
 

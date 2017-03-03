@@ -1,1 +1,0 @@
-".\packages\FSharp.Formatting.CommandTool\tools\fsformatting.exe" literate --processDirectory --lineNumbers false --inputDirectory _code --outputDirectory _posts
