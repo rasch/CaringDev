@@ -1,8 +1,10 @@
 - title: "Living in a post-imperative world"
   venue: bbv Gathering
+  slideLink: https://slides.caringdev.ch/funProg.html
   date: 2017-08-24
 - title: "Intro to F#"
   venue: bbv Focus Day
+  slideLink: https://slides.caringdev.ch/fsharp.html
   date: 2017-03-30
 - title: "F# Grundlagen"
   venue: .NET Nordwest-Schweiz
