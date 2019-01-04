@@ -6,7 +6,7 @@ author:
 markdown: kramdown
 highlighter: pygments
 permalink: /blog/:year/:month/:title/
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-feed
 

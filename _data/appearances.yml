@@ -1,3 +1,13 @@
+- title: "OpenAPI Specification and Swagger - compile-time safe .NET WebAPIs"
+  venue: TypeScript Switzerland
+  venueLink: https://www.meetup.com/TypeScript-Switzerland/events/248746421/
+  icon: sunglasses
+  date: 2018-09-12
+- title: "Swashbuckle / NSwag"
+  venue: .NET User Group Zürich
+  venueLink: https://www.meetup.com/dotnet-zurich/events/245634040/
+  icon: film
+  date: 2018-02-13
 - title: "Living in a post-imperative world"
   venue: bbv Gathering
   slideLink: https://slides.caringdev.ch/funProg.html

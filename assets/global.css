@@ -10,7 +10,11 @@ body {
 }
 
 .x2 {
-  font-size: 200%
+  font-size: 200%;
+}
+
+.no-border {
+  border-width: 0;
 }
 
 blockquote {
