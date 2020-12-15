@@ -8,7 +8,7 @@ Pathologically obsessed with code quality. \\
 Functional language admirer, Meetup-participant, broken English freshman blogger, DIY injector, fireman, volleyball player, motorcyclist, …
 
 Professionally writing C#, F#, TypeScript, JavaScript (past: Scala, C++, Java, Delphi) \\
-Using AngularJS, WebAPI, xUnit, xBehave, EF, Dapper, WCF, WF, … \\
+Using Angular, React, ASP.NET Core, WebAPI, xUnit, xBehave, EF, Dapper, WCF, WF, … \\
 Knows some (T-)SQL, HTML, CSS, XML, JSON, … \\
 Played with Oberon, Eiffel, (Turbo)Pascal, (V)Basic, OCaml, Coq, Haskell.
 
