@@ -39,12 +39,9 @@ Consider the following, vastly simplified messages:
 A very convenient way of working with (unknown to the programmer) data in F# are so-called type providers.
 
 > An F# type provider is a component that provides types, properties, and methods for use in your program.
-[...]
-Writing these types manually is very time-consuming and difficult to maintain.
-A common alternative is to use a code generator which adds files to your project
-[...]\\
 \\
-[Visual F# docs](https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/type-providers "MSDN")
+\\
+[F# docs](https://docs.microsoft.com/en-us/dotnet/fsharp/tutorials/type-providers/ "Microsoft Docs")
 
 The [XMLProvider](https://fsharp.github.io/FSharp.Data/library/XmlProvider.html) is configurable with a list of messages:
 {% highlight fsharp %}
@@ -180,11 +177,11 @@ let inline optionOfNillable n =
 
 The most eye-catching feature here are the two `(^X : (member Y : Z) x)` expressions:
 
- - `^X` is a so-called [statically resolved type parameter](https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/statically-resolved-type-parameters-%5Bfsharp%5D "MSDN").
+ - `^X` is a so-called [statically resolved type parameter](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/generics/statically-resolved-type-parameters "Microsoft Docs").
 In contrast to generic ones statically resolved type parameters get replaced *at compile time*
  - `member Y : Z` is the constraint on type `^X` to have a member `Y` of type `Z`
  - `(member Y : Z) x` is applying the member on an instance of `^X`
- - the [`inline` keyword](https://msdn.microsoft.com/en-us/visualfsharpdocs/conceptual/inline-functions-%5Bfsharp%5D "MSDN") instructs the compiler to generate a copy of the function for every resolved type instead of restricting it to one specific resolution
+ - the [`inline` keyword](https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/functions/inline-functions "Microsoft Docs") instructs the compiler to generate a copy of the function for every resolved type instead of restricting it to one specific resolution
 
 Executing the above snippet in `fsi` yields:
 {% highlight fsharp %}

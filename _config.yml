@@ -4,7 +4,7 @@ author:
   email: code@caringdev.ch
   twitter: _Caring_Dev_
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: /blog/:year/:month/:title/
 plugins:
   - jekyll-sitemap
