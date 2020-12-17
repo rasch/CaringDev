@@ -24,7 +24,7 @@ Consider the following, vastly simplified messages:
 </message>
 {% endhighlight %}
 </div>
-<div class="col-sm-6 col-xs-12">
+<div class="col-12 col-sm-6">
 {% highlight xml %}
 <?xml version="1.0" encoding="UTF-8" ?>
 <message>
@@ -38,10 +38,10 @@ Consider the following, vastly simplified messages:
 ### Extract
 A very convenient way of working with (unknown to the programmer) data in F# are so-called type providers.
 
-> An F# type provider is a component that provides types, properties, and methods for use in your program.
-\\
-\\
-[F# docs](https://docs.microsoft.com/en-us/dotnet/fsharp/tutorials/type-providers/ "Microsoft Docs")
+<blockquote class="blockquote text-right">
+<p class="mb-0">An F# type provider is a component that provides types, properties, and methods for use in your program.</p>
+<footer class="blockquote-footer"><a href="https://docs.microsoft.com/en-us/dotnet/fsharp/tutorials/type-providers/" title="Microsoft Docs">F# docs</a></footer>
+</blockquote>
 
 The [XMLProvider](https://fsharp.github.io/FSharp.Data/library/XmlProvider.html) is configurable with a list of messages:
 {% highlight fsharp %}
@@ -137,7 +137,7 @@ Just like I was. Fortunately there is...
 
 The missing piece is a transformation from n*i*llable to n*u*llable:
 <div class="row">
-<div class="col-md-5 col-sm-6 col-xs-12">
+<div class="col-12 col-sm-5">
 {% highlight fsharp %}
 type Nillable<'T> = {
     Nil : bool option
@@ -145,9 +145,9 @@ type Nillable<'T> = {
 }
 {% endhighlight %}
 </div>
-<div class="col-md-2 hidden-xs hidden-sm text-center"><i class="fi-arrow-right x2"></i></div>
-<div class="col-xs-12 visible-xs text-center"><i class="fi-arrow-down x2"></i></div>
-<div class="col-md-5 col-sm-6 col-xs-12">
+<div class="col-sm-2 d-none d-sm-block text-center"><i class="fi-arrow-right x2"></i></div>
+<div class="col-12 d-sm-none text-center"><i class="fi-arrow-down x2"></i></div>
+<div class="col-12 col-sm-5">
 {% highlight fsharp %}
 Nullable<'T>
 {% endhighlight %}

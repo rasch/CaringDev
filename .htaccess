@@ -1,3 +1,15 @@
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/cpanel-dcv/[0-9a-zA-Z_-]+$
+RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
 RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
+
+<VirtualHost *:443>
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</VirtualHost>
+
+Header set Content-Security-Policy "frame-ancestors 'none'; default-src 'none'; style-src 'self' cdn.jsdelivr.net; font-src cdn.jsdelivr.net; img-src 'self' i.creativecommons.org licensebuttons.net stackexchange.com syndication.twitter.com; script-src code.jquery.com cdn.jsdelivr.net platform.twitter.com; base-uri 'none'; form-action 'none'; frame-src platform.twitter.com"
+Header always append X-Frame-Options DENY
+Header always append X-Content-Type-Options nosniff
+Header always append Referrer-Policy no-referrer

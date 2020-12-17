@@ -1,6 +1,6 @@
-film:
+projection-screen:
   desc: Presentation
-sunglasses:
+lightbulb:
   desc: Short talk
 wrench:
   desc: Workshop

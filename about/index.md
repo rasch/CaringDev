@@ -17,22 +17,23 @@ Played with Oberon, Eiffel, (Turbo)Pascal, (V)Basic, OCaml, Coq, Haskell.
 {% for a in site.data.appearances %}
 {% assign iconTitle = site.data.icons[a.icon] %}
 <div class="row row-striped">
-<div class="col-xs-12 col-sm-2 col-lg-2">{{ a.date | date_to_string }}</div>
+<div class="col-11 col-md-2">{{ a.date | date_to_string }}</div>
+<div class="d-md-none col-1 text-right"><i class="fi-{{ a.icon }}" title="{{ iconTitle.desc }}"></i></div>
 {% if a.slideLink %}
-<div class="col-xs-12 col-sm-9 col-lg-5"><a href="{{ a.slideLink }}" rel="noopener noreferrer" target="_blank">{{ a.title }}</a></div>
+<div class="col-12 col-md-9 col-lg-6"><a href="{{ a.slideLink }}" rel="noopener noreferrer" target="_blank">{{ a.title }}</a></div>
 {% else %}
-<div class="col-xs-12 col-sm-9 col-lg-5">{{ a.title }}</div>
+<div class="col-12 col-md-9 col-lg-6">{{ a.title }}</div>
 {% endif %}
-<div class="visible-sm-block visible-md-block col-sm-1 text-right"><i class="glyphicon glyphicon-{{ a.icon }}" title="{{ iconTitle.desc }}"></i></div>
+<div class="d-none d-md-block d-lg-none col-1 text-right"><i class="fi-{{ a.icon }}" title="{{ iconTitle.desc }}"></i></div>
 {% if a.venueLink %}
-<div class="col-xs-12 col-sm-offset-2 col-lg-offset-0 col-sm-10 col-lg-4"><a href="{{ a.venueLink }}">{{ a.venue }}</a></div>
+<div class="col-12 offset-md-2 col-md-10 offset-lg-0 col-lg-3"><a href="{{ a.venueLink }}">{{ a.venue }}</a></div>
 {% else %}
-<div class="col-xs-12 col-sm-offset-2 col-lg-offset-0 col-sm-10 col-lg-4">{{ a.venue }}</div>
+<div class="col-12 offset-md-2 col-md-10 offset-lg-0 col-lg-3">{{ a.venue }}</div>
 {% endif %}
-<div class="visible-lg-block col-lg-1 text-right"><i class="glyphicon glyphicon-{{ a.icon }}" title="{{ iconTitle.desc }}"></i></div>
-<div class="visible-xs-block col-xs-12">&nbsp;</div>
+<div class="d-none d-lg-block col-1 text-right"><i class="fi-{{ a.icon }}" title="{{ iconTitle.desc }}"></i></div>
 </div>
 {% endfor %}
+<p></p>
 
 ## Find me on
 
