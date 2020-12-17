@@ -1,0 +1,9 @@
+presentation:
+  icon: projection-screen
+  desc: Presentation
+short-talk:
+  icon: lightbulb
+  desc: Short talk
+workshop:
+  icon: wrench
+  desc: Workshop

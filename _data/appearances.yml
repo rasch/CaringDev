@@ -1,36 +1,36 @@
 - title: "OpenAPI Specification and Swagger - compile-time safe .NET WebAPIs"
   venue: TypeScript Switzerland
   venueLink: https://www.meetup.com/TypeScript-Switzerland/events/248746421/
-  icon: lightbulb
+  kind: short-talk
   date: 2018-09-12
 - title: "Swashbuckle / NSwag"
   venue: .NET User Group Zürich
   venueLink: https://www.meetup.com/dotnet-zurich/events/245634040/
-  icon: projection-screen
+  kind: presentation
   date: 2018-02-13
 - title: "Living in a post-imperative world"
   venue: bbv Gathering
   slideLink: https://slides.caringdev.ch/funProg.html
-  icon: wrench
+  kind: workshop
   date: 2017-08-24
 - title: "Intro to F#"
   venue: bbv Focus Day
   slideLink: https://slides.caringdev.ch/fsharp.html
-  icon: projection-screen
+  kind: presentation
   date: 2017-03-30
 - title: "Reactive Extensions Workshop"
   venue: .NET Usergroup Zentralschweiz
   venueLink: http://www.dotnet-zentral.ch/2017/01/29/22-02-2017-reactive-extensions-workshop-mit-marko-und-raphael/
   slideLink: https://github.com/bbvch/RxIntro
-  icon: wrench
+  kind: workshop
   date: 2017-02-22
 - title: "F# Grundlagen"
   venue: .NET Nordwest-Schweiz
   venueLink: http://www.dotnet-nordwest.ch/
-  icon: projection-screen
+  kind: presentation
   date: 2016-07-25
 - title: "Intro to DTOs in F#"
   venue: .NET Usergroup Zentralschweiz
   venueLink: http://www.dotnet-zentral.ch/
-  icon: lightbulb
+  kind: short-talk
   date: 2016-05-06

@@ -13,26 +13,7 @@ Knows some (T-)SQL, HTML, CSS, XML, JSON, … \\
 Played with Oberon, Eiffel, (Turbo)Pascal, (V)Basic, OCaml, Coq, Haskell.
 
 ## Appearances
-
-{% for a in site.data.appearances %}
-{% assign iconTitle = site.data.icons[a.icon] %}
-<div class="row row-striped">
-<div class="col-11 col-md-2">{{ a.date | date_to_string }}</div>
-<div class="d-md-none col-1 text-right"><i class="fi-{{ a.icon }}" title="{{ iconTitle.desc }}"></i></div>
-{% if a.slideLink %}
-<div class="col-12 col-md-9 col-lg-6"><a href="{{ a.slideLink }}" rel="noopener noreferrer" target="_blank">{{ a.title }}</a></div>
-{% else %}
-<div class="col-12 col-md-9 col-lg-6">{{ a.title }}</div>
-{% endif %}
-<div class="d-none d-md-block d-lg-none col-1 text-right"><i class="fi-{{ a.icon }}" title="{{ iconTitle.desc }}"></i></div>
-{% if a.venueLink %}
-<div class="col-12 offset-md-2 col-md-10 offset-lg-0 col-lg-3"><a href="{{ a.venueLink }}" target="_blank">{{ a.venue }}</a></div>
-{% else %}
-<div class="col-12 offset-md-2 col-md-10 offset-lg-0 col-lg-3">{{ a.venue }}</div>
-{% endif %}
-<div class="d-none d-lg-block col-1 text-right"><i class="fi-{{ a.icon }}" title="{{ iconTitle.desc }}"></i></div>
-</div>
-{% endfor %}
+{% include appearances.md %}
 <p></p>
 
 ## Find me on
