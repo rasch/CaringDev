@@ -26,7 +26,7 @@ Played with Oberon, Eiffel, (Turbo)Pascal, (V)Basic, OCaml, Coq, Haskell.
 {% endif %}
 <div class="d-none d-md-block d-lg-none col-1 text-right"><i class="fi-{{ a.icon }}" title="{{ iconTitle.desc }}"></i></div>
 {% if a.venueLink %}
-<div class="col-12 offset-md-2 col-md-10 offset-lg-0 col-lg-3"><a href="{{ a.venueLink }}">{{ a.venue }}</a></div>
+<div class="col-12 offset-md-2 col-md-10 offset-lg-0 col-lg-3"><a href="{{ a.venueLink }}" target="_blank">{{ a.venue }}</a></div>
 {% else %}
 <div class="col-12 offset-md-2 col-md-10 offset-lg-0 col-lg-3">{{ a.venue }}</div>
 {% endif %}
