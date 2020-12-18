@@ -9,7 +9,7 @@ RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
     Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 </VirtualHost>
 
-Header set Content-Security-Policy "frame-ancestors 'none'; default-src 'none'; style-src 'self' cdn.jsdelivr.net; font-src cdn.jsdelivr.net; img-src 'self' i.creativecommons.org licensebuttons.net stackexchange.com syndication.twitter.com; script-src code.jquery.com cdn.jsdelivr.net platform.twitter.com; base-uri 'none'; form-action 'none'; frame-src platform.twitter.com"
+Header set Content-Security-Policy "frame-ancestors 'none'; default-src 'none'; style-src 'self' cdn.jsdelivr.net; font-src cdn.jsdelivr.net; img-src 'self' data: i.creativecommons.org licensebuttons.net stackexchange.com syndication.twitter.com; script-src code.jquery.com cdn.jsdelivr.net platform.twitter.com; base-uri 'none'; form-action 'none'; frame-src platform.twitter.com"
 Header always append X-Frame-Options DENY
 Header always append X-Content-Type-Options nosniff
 Header always append Referrer-Policy no-referrer
