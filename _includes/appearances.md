@@ -2,8 +2,8 @@
 {% assign kind = site.data.appearance-kind[a.kind] %}
 {% capture icon %}<i class="fi-{{ kind.icon }} text-muted" title="{{ kind.desc }}"></i>{% endcapture %}
 <div class="row row-striped">
-<div class="col-11 col-md-2">{{ a.date | date_to_string }}</div>
-<div class="d-md-none col-1 text-right">{{ icon }}</div>
+<div class="col-10 col-md-2">{{ a.date | date_to_string }}</div>
+<div class="d-md-none col-2 text-right">{{ icon }}</div>
 {% if a.slideLink %}
 <div class="col-12 col-md-9 col-lg-6"><a href="{{ a.slideLink }}" rel="noopener noreferrer" target="_blank">{{ a.title }}</a></div>
 {% else %}

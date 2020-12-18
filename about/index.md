@@ -2,7 +2,9 @@
 layout: default
 title: About
 ---
-# Caring Dev <small>caring (not only) about code</small>
+# Caring Dev
+
+<p class="lead">caring (not only) about code</p>
 
 Pathologically obsessed with code quality. \\
 Functional language admirer, Meetup-participant, broken English freshman blogger, DIY injector, fireman, volleyball player, motorcyclist, …

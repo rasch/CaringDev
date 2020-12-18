@@ -2,4 +2,6 @@
 layout: default
 title: Home
 ---
-# Caring Dev <small>caring about code</small>
+# Caring Dev
+
+<p class="lead">caring about code</p>
